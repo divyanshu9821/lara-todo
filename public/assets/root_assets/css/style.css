@@ -1,0 +1,98 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin:0;
+    font-family: sans-serif;
+}
+
+.container{
+    background-color: rgb(245,245,245);
+    padding:20px;
+    border: 2px solid rgb(235,235,235);
+    height: 40%;
+    width: 40%;
+}
+
+
+
+
+.heading-container{
+    color: rgb(56, 133, 191);
+    font-size: 1.25rem;
+    border-bottom: 2px solid rgb(235,235,235);
+}
+
+
+
+
+
+
+.inputs{
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+#input-task{
+    border-radius: 4px;
+    padding: 6px; 
+}
+
+#button-add{
+    border-radius: 4px;
+    background-color: rgb(40,96,144);
+    border: none;
+    padding: 8px; 
+    color: white;
+}
+
+
+.todos-container{
+    overflow-y:scroll ;
+    height: 120px;
+}
+
+
+.todos-container table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.todos-container tr{
+    border-bottom: 2px solid rgb(235,235,235);
+}
+
+.todos-container .col-task{
+    width:60%;
+    text-align: left;
+    padding: 4px 6px;
+}
+
+.todos-container .col-sr,
+.todos-container .col-status,
+.todos-container .col-action{
+    text-align: center;
+    padding: 4px 0px;
+}
+
+
+
+.todos-container button{
+    height: 1.5rem;
+    width: 1.5rem;
+    text-align: center;
+    font-weight: bolder;
+    border: none;
+    color: white;
+    border-radius: 4px;
+}
+
+.todos-container .done-button{
+    background-color: rgb(92, 184, 92);
+}
+
+.todos-container .delete-button{
+    background-color: rgb(217, 83, 79);
+
+}
